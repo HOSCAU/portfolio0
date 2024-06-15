@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import "slick-carousel/slick/slick.css"; 
-import './index.css';
-import App from './App';
+import About1 from "./About1.jpg";
+import project1 from "./Project1.png";
+import project2 from "./project2.png";
+import contactImg from "./contactImg.png";
+import Aditya12 from "./Aditya12.jpeg";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
+export {
+    About1,
+    project1,
+    project2,
+    contactImg,
+    Aditya12,
+}
